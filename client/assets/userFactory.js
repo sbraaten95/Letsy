@@ -6,8 +6,8 @@ app.factory('userFactory', ['$http', function ($http){
 			callback(data.data);
 		});
 	};
-	factory.create=(callback, input)=>{
-		$http.post('/friends', input).then((data)=>{
+	factory.create=(input, callback)=>{
+		$http.post('/users', input).then((data)=>{
 			callback(data.data);
 		});
 	};
