@@ -1,0 +1,21 @@
+{
+  "name": "Letsy",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "Scott Braaten <sbraaten95@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "^1.5.9",
+    "angular": "^1.5.9"
+  }
+}
